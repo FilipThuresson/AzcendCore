@@ -4,7 +4,6 @@
   "version": "1.0",
   "require": {
     "php": "^8.2",
-    "doctrine/orm": "^2.7",
     "ext-pdo": "*"
   },
   "autoload": {
