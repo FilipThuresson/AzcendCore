@@ -1,7 +1,8 @@
 {
   "name": "azcend/core",
   "description": "Core package for Azcend MVC",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "license": "MIT"
   "require": {
     "php": "^8.2",
     "ext-pdo": "*"
