@@ -1,0 +1,17 @@
+{
+  "name": "azcend/core",
+  "description": "Core package for Azcend MVC",
+  "version": "1.0",
+  "require": {
+    "php": "^8.2",
+    "doctrine/orm": "^2.7",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Azcend\\Core\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": false
+}
