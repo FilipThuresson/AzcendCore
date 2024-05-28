@@ -12,4 +12,13 @@ class Session
         return $_SESSION[$name] ?? null;
     }
 
+    public static function destroy() {
+        session_destroy();
+    }
+
+    public static function refresh(): void
+    {
+        session_destroy();
+        session_start();
+    }
 }

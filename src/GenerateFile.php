@@ -11,6 +11,11 @@ namespace Azcend\Controllers;
 
 class '.$className.'Controller extends BaseController
 {
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     public function index(): void
     {
         $this->view(\''. strtolower($className) . '.index\');
