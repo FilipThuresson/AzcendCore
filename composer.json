@@ -1,7 +1,7 @@
 {
   "name": "azcend/core",
   "description": "Core package for Azcend MVC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "require": {
     "php": "^8.2",
